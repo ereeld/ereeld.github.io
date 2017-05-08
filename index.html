@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>My Typescript App</title>
+  <title>Fixed Top</title>
   <meta name="description" content="">
   <meta name=viewport content="width=device-width, initial-scale=1">
   <meta name="mobile-web-app-capable" content="yes">
@@ -23,6 +23,10 @@
       padding-top: 0px !important;
       margin-top: 0px !important;
     }
+    
+    .mobile.row .ui.inverted.menu{
+      border-radius: 0px !important;
+    }
 
     .mobile.row .ui.inverted.menu{
       border-radius: 0px !important;
@@ -32,6 +36,23 @@
       margin-top: 54px !important;
       width: 100%;
       display: none;
+    }
+    .ui.grid.main{
+      margin-top: 70px;
+    }
+    .padding-reset{
+      padding: 0px !important;
+    }
+    .ui.message{
+      padding: 40px !important;
+    }
+    @media (max-width: 767px) {
+        .ui.grid.main{
+        margin-top: 70px;
+      }
+      .ui.vertical.menu.navbar{
+        margin-top: 0px !important;
+      }
     }
   </style>
 </head>
